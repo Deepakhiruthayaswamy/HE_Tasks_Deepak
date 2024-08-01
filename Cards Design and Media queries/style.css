@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.featured {
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-container {
+  width: 340px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.image-container img {
+  width: 95%;
+  height: 75%;
+
+  object-fit: cover;
+}
+
+.image-title {
+  margin-top: 8px;
+}
+
+.text-center {
+  padding: 10px;
+  font-size: 28px;
+  font-family: "Mulish", sans-serif;
+}
+
+.container-about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 55px;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 100%;
+}
+
+.about-me-heading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about-me-heading h3 {
+  font-size: 20px;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 18px;
+}
+.container-about-me h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.profile-img {
+  width: 65%;
+  height: 530px;
+  margin-top: 20px;
+}
+
+h3,
+p {
+  margin: 10px 0;
+}
+
+.dress-man-content {
+  width: 100%;
+  max-width: 1200px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.dress-man-content p {
+  margin: 0;
+  margin-bottom: 26px;
+  text-align: center;
+  padding: 2px 2px 5px 5px;
+  font-size: 16px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.zoom-effect {
+  width: 95%;
+  height: 75%;
+  transition: transform 0.5s ease;
+  object-fit: cover;
+}
+
+.zoom-effect:hover {
+  transform: scale(0.9);
+}
+
+/* Media Queries */
+
+/* For Mobile Devices */
+
+@media screen and (max-width: 480px) {
+  .image-gallery {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .image-container {
+    width: 45%;
+    height: 350px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  .text-center {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+  .zoom-effect {
+    object-fit: cover;
+  }
+
+  .container-about-me {
+    width: 95%;
+    height: 480px;
+    padding: 8px;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .profile-img {
+    height: 100px;
+    width: 200px;
+  }
+  .about-me-heading {
+    font-size: 20px;
+  }
+  .italic {
+    font-size: 13px;
+  }
+  .dress-man-content {
+    padding: 8px;
+  }
+  .dress-man-content p {
+    font-size: 12px;
+  }
+}
+
+/* For Tablet Devices */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .image-gallery {
+    flex-direction: row;
+    gap: 45px;
+  }
+
+  .image-container {
+    width: 40%;
+    height: 450px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  .text-center {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+  .zoom-effect {
+    object-fit: cover;
+  }
+
+  .container-about-me {
+    width: 95%;
+    height: auto;
+    padding: 8px;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .profile-img {
+    height: 250px;
+    width: 430px;
+  }
+  .about-me-heading {
+    font-size: 29px;
+  }
+
+  .container-about-me h3 {
+    font-size: 25px;
+  }
+  .italic {
+    font-size: 19px;
+  }
+  .dress-man-content {
+    padding: 8px;
+  }
+  .dress-man-content p {
+    font-size: 14px;
+  }
+}
+
+/* For Laptop Devices */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .image-gallery {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .image-container {
+    width: 23%;
+    height: 420px;
+    font-size: 15px;
+    margin-bottom: 60px;
+  }
+
+  .image-container .text-center {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+  .zoom-effect {
+    object-fit: cover;
+  }
+
+  .container-about-me {
+    width: 95%;
+    height: auto;
+    padding: 8px;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .profile-img {
+    height: 320px;
+    width: 380px;
+  }
+  .about-me-heading {
+    font-size: 29px;
+  }
+
+  .container-about-me h3 {
+    font-size: 25px;
+  }
+  .italic {
+    font-size: 19px;
+  }
+  .dress-man-content {
+    padding: 8px;
+  }
+  .dress-man-content p {
+    font-size: 14px;
+  }
+}
+
+/* For Bigger Laptop Devices */
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .image-gallery {
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .image-container {
+    width: 20%;
+    height: 480px;
+    font-size: 15px;
+    margin-bottom: 90px;
+  }
+
+  .text-center {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+  .zoom-effect {
+    object-fit: cover;
+  }
+
+  .container-about-me {
+    width: 95%;
+    height: auto;
+    padding: 8px;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .profile-img {
+    height: 450px;
+    width: 830px;
+  }
+  .about-me-heading {
+    font-size: 29px;
+  }
+
+  .container-about-me h3 {
+    font-size: 25px;
+  }
+  .italic {
+    font-size: 19px;
+  }
+  .dress-man-content {
+    padding: 8px;
+  }
+  .dress-man-content p {
+    font-size: 16px;
+  }
+}

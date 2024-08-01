@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.our-navbar a {
+  color: red;
+  font-size: 21px;
+  font-weight: bold;
+}
+.our-navbar {
+  background-color: #fff;
+}
+
+.container-fluid {
+  background-color: #fff;
+
+  padding: 8px;
+}
+.navbar-nav .nav-link {
+  margin: 0 23px;
+  font-family: "Dosis", sans-serif;
+}
+
+.dropdown-menu {
+  font-family: "Dosis", sans-serif;
+}
+.navbar-nav .dropdown-menu .dropdown-item {
+  margin: 8px 0;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+}
+
+.card-title {
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.card-text {
+  font-family: "Parisienne", cursive;
+}
+
+.btn {
+  font-family: "Dosis", sans-serif;
+}
+#carouselExampleAutoplaying {
+  width: 100%;
+  margin: auto;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.special-heading {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-family: "Rock Salt", cursive;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 14px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 250px;
+}
+
+.card {
+  margin-right: 35px;
+}
+
+.chef-heading {
+  margin-left: 370px;
+  margin-top: 50px;
+}
+.amazing-chefs {
+  font-family: Arial, sans-serif;
+  margin-left: 197px;
+}
+
+.chef-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-content {
+  flex: 0.55;
+  margin-right: 63px;
+  margin-left: 100px;
+}
+.text-content p {
+  font-family: "Parisienne", cursive;
+  font-size: 18px;
+}
+
+.text-content-2 p {
+  font-family: "Parisienne", cursive;
+  font-size: 18px;
+}
+.text-content h3 {
+  font-family: "Dosis", sans-serif;
+  font-size: 40px;
+}
+.text-content-2 h3 {
+  font-family: "Dosis", sans-serif;
+  font-size: 40px;
+}
+.chef-info img {
+  margin-left: 10px;
+  margin-top: 50px;
+  max-width: 200px;
+  height: auto;
+  border: 5px solid red;
+}
+
+.amazing-chefs-2 {
+  text-align: center;
+}
+
+.chef-info-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-content-2 {
+  text-align: left;
+  flex: 0.7;
+  margin-left: 60px;
+}
+
+.second-chef {
+  margin-right: 30px;
+  margin-top: 80px;
+  max-width: 200px;
+  margin-left: 118px;
+  height: auto;
+  border: 5px solid red;
+}
+
+.footer-container {
+  background-color: red;
+  color: #fff;
+  margin-top: 80px;
+  padding-left: 15px;
+}
+.footer-container p {
+  font-family: "Parisienne", cursive;
+  padding: 0;
+}
+.no-overflow {
+  overflow-x: hidden;
+}
+
+.page-footer-copyright {
+  background-color: #fff;
+  color: red;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.Deepak {
+  font-family: "Dosis", sans-serif;
+  font-size: 38px;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 14px;
+}
+
+.footer-section h4 {
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 14px;
+}
+.follow {
+  font-family: "Dosis", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 14px;
+}
+
+.social-icon {
+  margin-right: 10px;
+}
+
+.page-footer-copyright {
+  font-family: "Parisienne", cursive;
+}

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap");
+
+.html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-container {
+  background-color: #ace1af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.title-container {
+  width: 50%;
+  position: relative;
+  padding: 20px;
+  border: 18px solid green;
+  border-radius: 7px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.title-container h1 {
+  margin-top: 5px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title-container p {
+  margin-left: 8px;
+  font-family: "Poiret One", sans-serif;
+  font-size: 15px;
+}
+
+.title_Description {
+  font-style: italic;
+  font-family: "Poiret One", sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+.top-right-img {
+  position: absolute;
+  top: 9px;
+  right: 0;
+  margin-right: 70px;
+  width: 150px;
+  height: 100px;
+}
+
+.down-left-img {
+  width: 130px;
+  height: 60px;
+  margin-left: 18px;
+  left: 0;
+  padding: 0;
+}
+
+.parent-ingredients-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 6px;
+}
+
+.parent-ingredients-container h2 {
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  margin-left: -8px;
+  font-size: 20px;
+}
+
+.ingredients-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1px 50px;
+  margin-left: 0;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.ingredients {
+  display: contents;
+}
+
+.ingredients p {
+  margin-left: -18px;
+  font-size: 13px;
+}
+.measurement {
+  text-align: right;
+  font-size: 10px;
+}
+
+.item {
+  text-align: left;
+  font-size: 10px;
+}
+
+.directions-container {
+  padding: 2px;
+  font-family: "Anton", sans-serif;
+  font-size: 12px;
+}
+
+.directions-container ol {
+  margin-left: -149px;
+  font-size: 13px;
+}
+
+.directions-container h2 {
+  margin-left: -127px;
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+span {
+  font-weight: bold;
+}
