@@ -1,5 +1,5 @@
 <h1 align="center">HE Tasks Images</h1> <br/>
-<p>Images of the Tasks has been enclosed below</p>
+<h4 align="center">Images of the Tasks has been enclosed below</h4>
 ![Login Page](https://github.com/user-attachments/assets/8b5a4a85-95c3-4293-85c2-45221e6e7a10) <br/>
 ![Menu Card Design](https://github.com/user-attachments/assets/15078686-706c-42c0-8b46-16707689f8fe) <br/>
 ![Colspan and rowspan](https://github.com/user-attachments/assets/1a743339-adcf-42d3-bef7-3d02406037fd) <br/>
